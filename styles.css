@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@300&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    color: white;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    padding: 12px;
+    background-color: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: #36393d;
+}
+
+.col {
+    display: block;
+    margin-bottom: -12px;
+}
+
+.input-container {
+    width: 40%;
+    height: 6px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-container>i {
+    font-size: 20px;
+    color: #777;
+}
+
+.input-container>input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.button {
+    background-color: #282829;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.button5 {
+    padding: 20px;
+}
+
+.button1 {
+    background-color: #1c1d1f;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: #1c1d1f;
+}
